@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>trabalhando com videos</title>
+</head>
+<body>
+    <h1>inserindo videos hospedados localmente</h1>
+    <p>esse video esta hospedado no meu proprio servidor</p>
+    <!--videos hospedados dessa maneira vão consumir muito trafego de dados MUITO CUIDADO!!!-->
+    <video width="500px" poster="imagens/imagem-1.jpg" controls>
+        <source src="midias/Meu-Video-webm.webm" type="video/webm">
+        <source src="midias/Meu-Video-Mkv.mkv" type="video/mkv">
+        <source src="midias/meu-video-mp4.mp4" type="video/mp4">
+        <source src="midias/meu-video-ogv.ogv" type="video/ogv">
+        <p>seu navegador não é compativel com reprodução de video <a href="midias/meu-video-mp4.mp4" download="meu-video-mp4" type="aplication/mp4">clique aqui para baixar o arquivo mp4</a> </p>
+    </video>
+    <h1>inserindo videos do youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/HWLe4TiSdMQ?si=N2k3K1DJe2nVo749" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <h1>inserindo video do vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/26976372?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" title="Bruno Mars - The Lazy Song [Official Video]"></iframe>
+</body>
+</html>
